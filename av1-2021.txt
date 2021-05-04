@@ -12,39 +12,48 @@ certifique que existe apenas uma pasta com esse nome) e cole nas questões todos
 no arquivo log/grepdata.txt 
 Resposta (Cole aqui o comando utilizado): 
 
+cat log/grepdata.txt more
 
 2 - Renomear o arquivo av1-2021.txt da sua pasta para av1-seunome.txt 
 (dica de segurnaça: se o arquivo estiver aberto, para garantir que o arquivo não será corrompido, salve e feche-o antes de inciar o comando)
 Ex.: av1-alex.txt
 Resposta (Cole aqui o(s) comandos utilizados): 
 
-
+mv av1-2021.txt av1-natalia.txt
 
 3 - Crie 3 arquivos em branco que comecem com seu nome e termina com uma 
 sequencia 1, 2 e 3. 
 Ex.: alex1.txt, alex2.txt, alex3.txt. Que comandos você utilizou?
 Resposta (Cole aqui o(s) comandos utilizados): 
 
-
+touch nat1.txt 
+(seta p cima)
+touch nat2.txt
+(seta p cima)
+touch nat3.txt
 
 4 - A partir de sua pasta original(item 0), usando o comando find do linux, 
 liste todos os arquivo que foram criados nos ultimos 30 minutos? 
 Resposta1 (comando linux usado): 
 Resposta2 (arquivos encontrados encontrados) :
 
+find -ntime 0 -ls
+nat1.txt
+nat2.txt
+nat3.txt
 
 
 5 - A partir da pasta principal, usando uma linha de comando linux, 
 copiar todos os arquivos para uma pasta chamada "arquivos(seunome)".
 Resposta (Cole aqui o comando utilizado): 
 
-
+mkdir natalia | cp av1-natalia.txt natalia |cp nat1.txt natalia | cp -r pasta1 natalia | cp instrucoes.txt natalia | cp nat2.txt natalia | cp -r  pasta2 natalia | cp ultimocomando.txt natalia | cp -r log/ natalia | cp -r pasta3/ natalia | cp nat3.txt natalia
 
 6 - A partir da pasta principal, mostrar as 3 primeiras linhas de todos
 os arquivos com extensão ".txt"contidos neste projeto.
 Resposta (Cole aqui o comando utilizado): 
 
-
+cat *.txt | head -3
 
 
 **************************************************************************************************

@@ -1,4 +1,4 @@
-Aluno: (SeuNome)
+Aluno: Natalia Cabral Andrade
 Prova de Laboratorio de Sistemas Operacionais
 Professor: Alex Salgado
 1o. Semestre de 2021   Turno: Noite            AV1
